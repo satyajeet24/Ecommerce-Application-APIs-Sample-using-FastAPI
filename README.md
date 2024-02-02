@@ -13,4 +13,5 @@
 
 
 
-      # Before executing get API of the products, create some dummy products by running asyncio.run(create_dummy_products())   
+      Before executing get API of the products, create some dummy products by running this instruction - 
+      asyncio.run(create_dummy_products()) 
