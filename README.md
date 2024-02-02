@@ -23,6 +23,6 @@
 
       To set up mongodb locally, please refer this following article -
 
-      - [mongodb setup process locally](https://medium.com/@minoffline/how-to-install-mongodb-on-macos-locally-in-2023-ab84140ae595/)
+      https://medium.com/@minoffline/how-to-install-mongodb-on-macos-locally-in-2023-ab84140ae595/
 
       
