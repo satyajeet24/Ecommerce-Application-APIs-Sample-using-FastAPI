@@ -1,5 +1,6 @@
 from fastapi import FastAPI, Query, HTTPException
 from fastapi.responses import JSONResponse
+from fastapi.encoders import jsonable_encoder
 from typing import Optional
 from src.validations import filter_validations
 from src.Service.products_service import ProductsService
@@ -54,8 +55,6 @@ class ProductsController:
                 "inserted_id": str(inserted_id),
                 "message": "Dummy product created successfully",
             }
-
-            print(response_data)
 
             return JSONResponse(content=response_data)
 

@@ -23,8 +23,6 @@ class OrderController:
             result = OrderService.create_order_service(order)
             response_data = {"order_id": str(result.inserted_id), "message": "Order created successfully"}
 
-            print(response_data)
-
             return JSONResponse(content=response_data)
 
         except OrderCreationError as e:
