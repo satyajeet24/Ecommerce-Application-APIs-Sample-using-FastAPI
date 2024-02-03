@@ -26,8 +26,6 @@ class ProductsService:
             },
         }
 
-        print(response_data)
-
         return response_data
 
     def create_dummy_products(self, dummy_products_document):
